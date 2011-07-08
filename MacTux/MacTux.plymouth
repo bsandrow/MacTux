@@ -1,0 +1,9 @@
+[Plymouth Theme]
+Name=MacTux
+Description=An Apple-like Tux Boot Image
+ModuleName=script
+
+[script]
+ImageDir=/lib/plymouth/themes/MacTux
+ScriptFile=/lib/plymouth/themes/MacTux/MacTux.script
+

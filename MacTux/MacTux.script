@@ -1,0 +1,14 @@
+screen_width    = Window.GetWidth();
+screen_height   = Window.GetHeight();
+bgImage         = Image("background.png");
+scaledBgImage   = bgImage.Scale(screen_width, screen_height);
+logoImage       = Image("linuxboot-logo.png");
+logo_width      = logoImage.GetWidth();
+logo_height     = logoImage.GetHeight();
+logo_pos_x      = (screen_width / 2) - (logo_width / 2);
+logo_pos_y      = (screen_height / 2) - (logo_height / 2);
+bgSprite        = Sprite(scaledBgImage);
+logoSprite      = Sprite(logoImage);
+
+logoSprite.SetX(logo_pos_x);
+logoSprite.SetY(logo_pos_y);
