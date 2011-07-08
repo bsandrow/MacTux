@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=mactux
+Description=A boot image of Tux that is similar to the Apple boot screen
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/mactux
+ScriptFile=/usr/share/plymouth/themes/mactux/mactux.script
