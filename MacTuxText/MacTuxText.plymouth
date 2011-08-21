@@ -1,0 +1,9 @@
+[Plymouth Theme]
+Name=MacTuxText
+Description=An Apple-like Tux Boot Image with scrolling boot text
+ModuleName=script
+
+[script]
+ImageDir=/lib/plymouth/themes/MacTuxText
+ScriptFile=/lib/plymouth/themes/MacTuxText/MacTuxText.script
+
